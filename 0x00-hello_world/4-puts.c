@@ -1,4 +1,6 @@
-#include <stdio.h>
+nclude <stdio.h>
+
+
 
 /**
  *
@@ -21,3 +23,24 @@ int main(void)
 			return (0);
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

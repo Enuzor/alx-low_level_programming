@@ -22,7 +22,7 @@ int main(void)
 			putchar((digit1 % 10) + '0');
 			putchar((digit2 % 10) + '0');
 
-			if (digit1 == 8 && digit == 9)
+			if (digit1 == 8 && digit2 == 9)
 				continue;
 
 			putchar(',');
@@ -35,3 +35,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
+}

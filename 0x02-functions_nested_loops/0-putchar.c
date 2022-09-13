@@ -1,3 +1,8 @@
+/**
+ * main-main func
+ * Return 0 success
+ * */
+
 #include "main.h"
 
 /**

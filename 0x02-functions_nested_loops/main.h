@@ -1,5 +1,5 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef _PUTCHAR_H_
+#define _PUTCHAR_H_
 
 
 /**
@@ -10,4 +10,4 @@
  * On error, -1 is returned, and error is set appropriately
  */
 
- int _putchar(char c);
+int _putchar(char c);

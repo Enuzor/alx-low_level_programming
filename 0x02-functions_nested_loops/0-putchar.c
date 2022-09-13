@@ -10,8 +10,8 @@ main - print _putchar, followed by a new line
 Return: 0
 */
 
-int _main(void)
-{	
+ int _main(void)
+ { 	
 	_putchar('_');
         _putchar('p');
         _putchar('u');
@@ -24,6 +24,6 @@ int _main(void)
 
 
 	   return (0);
-}
+} 
 
 

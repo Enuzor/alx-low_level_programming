@@ -1,13 +1,7 @@
-/**
- * main - main func
- * Return: 0 success
- */
-
-
 #include "main.h"
 
 /**
-n - print _putchar, followed by a new line
+main - print _putchar, followed by a new line
 Return: 0
 */
 

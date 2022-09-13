@@ -1,16 +1,17 @@
 /**
- * main-main func
+ * main - main func
  * Return: 0 success
  */
+
 
 #include "main.h"
 
 /**
-* main - print putchar, followed by a newline
-* Return: 0
+n - print _putchar, followed by a new line
+Return: 0
 */
 
-int _main(void)
+int _putchar(char c)
 {	
 	_putchar('_');
         _putchar('p');

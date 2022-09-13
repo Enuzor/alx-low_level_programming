@@ -1,23 +1,26 @@
-#include <unistd.h>
+/**
+ * main-main func
+ * Return: 0 success
+ */
+
+#include "main.h"
 
 /**
-* putchar - writes the character c to stdout
-* *@c: The character to print
-* 
-* Return: On success 1.
-*  On error, -1 is returned, and errno is set appropriately.
+* main - print putchar, followed by a newline
+* Return: 0
 */
-int _putchar(char c)
+
+int _main(void)
 {	
-	putchar('_');
-        putchar('p');
-        putchar('u');
-        putchar('t');
-        putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-        putchar('\n');
+	_putchar('_');
+        _putchar('p');
+        _putchar('u');
+        _putchar('t');
+        _putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+        _putchar('\n');
 
 
 	   return (0);

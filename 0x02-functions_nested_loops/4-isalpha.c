@@ -4,7 +4,7 @@
  * _isalpha -checks for alphabet c character
  * Return 1 if lower case or upper case
  * Else Return 0
- ** /
+ */
 
  int _isalpha(int c)
  {

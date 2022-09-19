@@ -1,5 +1,6 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
+
 /**
  * rev_string - update value.
  * @s: value to be evaluated

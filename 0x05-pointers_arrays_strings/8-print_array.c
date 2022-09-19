@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *print array - update value
+ *print array - prints n elements of an array of integers, 
+ * followed by a new line
  * @a: value to be evaluated
  * @n: value to be evauated
  * Return: not.
@@ -16,7 +17,7 @@ void print_array(int *a, int n)
 		printf("%d", a[x]);
 		if (x != n - 1)
 		{
-			printf(",");
+			printf(", ");
 		}
 	}
 	printf("\n");

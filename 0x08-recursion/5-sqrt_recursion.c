@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * sqtRecursive - computes square root recursively doing binary search
  * @start: initial number

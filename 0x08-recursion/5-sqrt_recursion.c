@@ -35,5 +35,5 @@ int sqtRecursive(int start, int end, int m)
 		return (-1);
 	if (n == 0 || n == 1)
 		return (n);
-	return (sqrtRecursive(2, n, n));
+	return (sqtRecursive(2, n, n));
 }

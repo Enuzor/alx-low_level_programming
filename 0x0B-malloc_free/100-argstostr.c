@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * *argstoostr - concatenates all arguments to the program
+ * *argstostr - concatenates all arguments to the program
  * @ac: argument count
  * @av: pointer to arguments
  * Return: pointer to new space in memory or null
  * **/
-char *argstoostr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	char *strDup;
 	int i, j, k, size;

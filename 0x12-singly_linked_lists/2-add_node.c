@@ -19,7 +19,7 @@ int _strlen(const char *s)
  * @str: string to add to the head
  * Return: pointer to the curent position in list
  * **/
-listint_t *add_node(listint_t **head, const char *str)
+list_t *add_node(list_t **head, const char *str)
 {
 	int i, len;
 	char *content;

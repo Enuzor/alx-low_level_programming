@@ -5,16 +5,15 @@
  * @h: The head of the linked list
  * Return: The number of noddes of the linked list
  * **/
-size_t print_listint(const listint_t *h)
+size_t print_list(const list_t *h)
 {
-	size_t num = 0; /**iterator**/
+	size_t i;
 
-	while (h)
+	for (i = 0; h; i++)
 	{
-		num++;
+		printf("[%d] %s\n", h->len, h->str);
 		h = h->next;
+
 	}
-
-	return (num);
-
+	return (i);
 }

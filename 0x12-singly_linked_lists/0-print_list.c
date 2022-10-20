@@ -7,16 +7,14 @@
  * **/
 size_t print_listint(const listint_t *h)
 {
-	size_t i = 0; /**iterator**/
+	size_t num = 0; /**iterator**/
 
-	if (!h)
-		return (0);
-
-	while (h != NULL)
+	while (h)
 	{
-		printf("%i\n", h->n);
+		num++;
 		h = h->next;
-		i++;
 	}
-	return (i);
+
+	return (num);
+
 }
